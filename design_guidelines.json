@@ -1,0 +1,97 @@
+{
+  "theme": "Light",
+  "archetype": "Organic & Earthy",
+  "mood": "Premium but warm, artisanal, authentic Italian, appetizing, fresh",
+  "language": "Italian",
+  "colors": {
+    "background": "#FDFBF7",
+    "surface": "#FFFFFF",
+    "primary": "#B4C9B1",
+    "secondary": "#C63A37",
+    "text_primary": "#4A3B32",
+    "text_secondary": "#7A6859",
+    "accent_beige": "#E8DCC4",
+    "border": "#EBE3D5"
+  },
+  "typography": {
+    "fonts": [
+      {
+        "name": "Cormorant Garamond",
+        "type": "heading",
+        "usage": "H1, H2, H3, large display text"
+      },
+      {
+        "name": "Manrope",
+        "type": "body",
+        "usage": "Paragraphs, buttons, small text"
+      },
+      {
+        "name": "Dancing Script",
+        "type": "accent",
+        "usage": "Subtitles, artisanal signatures, small flourishes"
+      }
+    ],
+    "rules": {
+      "headings": "Tight letter spacing, elegant weights (font-light or font-semibold).",
+      "body": "Loose line-height (leading-relaxed), readable sizes.",
+      "hierarchy": "H1 text-5xl to text-6xl. H2 text-3xl to text-4xl."
+    }
+  },
+  "layout_and_spacing": {
+    "container": "Max width 7xl, generous padding (p-8 to p-16) to let content breathe.",
+    "grids": "Use Bento Grid protocol (Tetris mode) for experience and trust sections.",
+    "corners": "Soft, organic roundness (rounded-2xl to rounded-3xl) to feel tactile and artisanal.",
+    "shadows": "Very soft, ambient shadows. Avoid harsh dark shadows."
+  },
+  "components": {
+    "hero": "Large immersive image on one side or background, clear typography, two distinct CTAs (Primary: Soft Pistachio bg, Secondary: Outline).",
+    "trust_cards": "Flat background with subtle 1px border (#EBE3D5), earthy icons. Use lucide-react icons.",
+    "product_cards": "Image-heavy, soft corners, title in Cormorant Garamond.",
+    "contact_form": "Shadcn based but heavily customized to match the Organic theme (no harsh black borders, use deep brown for focus rings)."
+  },
+  "media": {
+    "hero": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/289caaae-5411-458e-ab32-3849a21e2044/images/a9a621f095532a2327c8e122a2c2088c6e5854e28140df7f052a23b74fad9c43.png",
+        "description": "High-end cinematic photograph of artisanal gelato cone"
+      }
+    ],
+    "experience_and_trust": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/289caaae-5411-458e-ab32-3849a21e2044/images/113af0397500adf861bd11735648a96fccb972f9958753e5a91f8cbd2be31c64.png",
+        "description": "Happy family eating gelato outdoors"
+      },
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/289caaae-5411-458e-ab32-3849a21e2044/images/17677658d30e2cad28df69e7f1d0113c32f1a258ea523ecc64ff286c42ac36d9.png",
+        "description": "Fresh ingredients flat lay"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1657516159721-6e92006dd06a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwyfHxsb2Nhcm5vJTIwc3dpdHplcmxhbmR8ZW58MHx8fHwxNzc5NDc3NjA2fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Locarno landscape"
+      }
+    ],
+    "products_and_flavors": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/289caaae-5411-458e-ab32-3849a21e2044/images/0ee00e2f4014ba159dd3f68df0c668bb2745b492adf0d2f0598a1113d61b6265.png",
+        "description": "Stracciatella 1kg Tub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1764337008605-44abfb0f3816?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw0fHxhcnRpc2FuYWwlMjBnZWxhdG98ZW58MHx8fHwxNzc5NDc3NjA2fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Gelato display case"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1771885603721-c15a2f80856e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnRpc2FuYWwlMjBnZWxhdG98ZW58MHx8fHwxNzc5NDc3NjA2fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Assortment of ice cream cones"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Ensure all copy is exclusively in Italian ('Solo italiano').",
+    "Use framer-motion for smooth section reveal animations (fade in and slight translate-y).",
+    "Ensure the Google Maps iframe is responsive and matches the theme aesthetics (e.g., wrap in a rounded container with a warm border).",
+    "Include data-testid attributes for all interactive and key elements.",
+    "Form must be functional and visually customized using Tailwind classes (avoid Shadcn default black borders, use the defined color palette).",
+    "Do not use generic sans-serif for headings; strictly use Cormorant Garamond or a similar elegant serif.",
+    "Use the specific media URLs provided. Do not use generic placeholders."
+  ]
+}
