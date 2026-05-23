@@ -41,9 +41,9 @@ export default function NavBar() {
           data-testid="navbar-logo"
         >
           <img
-            src="/brand/logo.jpeg"
+            src="/brand/logo.png"
             alt="La Dolcevita Gelato Artigianale"
-            className="h-14 sm:h-16 w-auto rounded-2xl"
+            className="h-16 sm:h-20 w-auto"
           />
         </a>
 

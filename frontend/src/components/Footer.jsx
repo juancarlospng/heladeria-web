@@ -12,9 +12,9 @@ export default function Footer() {
           <div className="lg:col-span-5">
             <div className="flex items-center gap-4">
               <img
-                src="/brand/logo.jpeg"
+                src="/brand/logo.png"
                 alt="La Dolcevita Gelato Artigianale"
-                className="h-20 w-auto rounded-2xl"
+                className="h-24 w-auto"
               />
               <div>
                 <p className="font-display text-2xl leading-tight">
