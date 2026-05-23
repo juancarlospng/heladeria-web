@@ -40,20 +40,11 @@ export default function NavBar() {
           className="flex items-center gap-3 group"
           data-testid="navbar-logo"
         >
-          <span
-            className="w-10 h-10 rounded-full flex items-center justify-center bg-[var(--color-violet)] text-[var(--color-text)] font-display text-xl"
-            aria-hidden
-          >
-            ld
-          </span>
-          <span className="leading-tight">
-            <span className="block font-display text-lg sm:text-xl text-[var(--color-text)] tracking-tight">
-              La Dolcevita
-            </span>
-            <span className="block text-[10px] uppercase tracking-[0.22em] text-[var(--color-text-soft)]">
-              Gelateria · Locarno
-            </span>
-          </span>
+          <img
+            src="/brand/logo.jpeg"
+            alt="La Dolcevita Gelato Artigianale"
+            className="h-14 sm:h-16 w-auto rounded-2xl"
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">

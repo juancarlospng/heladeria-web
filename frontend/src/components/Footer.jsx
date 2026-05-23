@@ -10,12 +10,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
-            <div className="flex items-center gap-3">
-              <span className="w-12 h-12 rounded-full flex items-center justify-center bg-[var(--color-violet)] text-[var(--color-text)] font-display text-2xl">
-                ld
-              </span>
+            <div className="flex items-center gap-4">
+              <img
+                src="/brand/logo.jpeg"
+                alt="La Dolcevita Gelato Artigianale"
+                className="h-20 w-auto rounded-2xl"
+              />
               <div>
-                <p className="font-display text-2xl leading-none">
+                <p className="font-display text-2xl leading-tight">
                   Gelateria La Dolcevita
                 </p>
                 <p className="text-xs uppercase tracking-[0.22em] opacity-70 mt-1">
