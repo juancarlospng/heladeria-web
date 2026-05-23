@@ -10,6 +10,7 @@ export const BRAND = {
   since: 2002,
   instagram: "https://www.instagram.com/ladolcevita.gelateria/?hl=en",
   facebook: "#",
+  whatsapp: "https://wa.me/41792467692",
   tripadvisor: "#",
   email: "info@ladolcevita.ch",
   mapsEmbed:
