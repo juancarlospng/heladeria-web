@@ -141,11 +141,11 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8, duration: 0.6 }}
-              className="absolute top-5 right-5 inline-flex items-center gap-2 bg-[var(--color-yellow)] text-[var(--color-text)] px-4 py-2 rounded-full text-xs font-semibold tracking-[0.18em]"
+              className="absolute top-5 right-5 inline-flex items-center gap-1.5 bg-[var(--color-yellow)] text-[var(--color-text)] px-4 py-2 rounded-full text-xs font-semibold tracking-[0.22em] uppercase"
               data-testid="hero-since-badge"
             >
-              <span className="uppercase opacity-80">dal</span>
-              <span className="font-display text-base leading-none">2002</span>
+              <span>dal</span>
+              <span>2002</span>
             </motion.div>
           </motion.div>
         </div>
