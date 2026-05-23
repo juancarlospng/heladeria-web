@@ -26,7 +26,7 @@ export default function TrustSection() {
   return (
     <section
       id="valori"
-      className="py-20 lg:py-28 bg-[var(--color-beige-soft)] relative"
+      className="py-20 lg:py-28 bg-[var(--color-grey-soft)] relative"
       data-testid="trust-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -61,10 +61,10 @@ export default function TrustSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.7, delay: i * 0.12 }}
-                className="bg-white rounded-3xl p-8 border border-[var(--color-border)] hover:shadow-[0_20px_40px_-28px_rgba(74,59,50,0.4)] transition-shadow"
+                className="bg-white rounded-3xl p-8 border border-[var(--color-border)]"
                 data-testid={`trust-card-${i}`}
               >
-                <span className="inline-flex w-12 h-12 rounded-2xl items-center justify-center bg-[var(--color-pistachio)] text-[var(--color-text)]">
+                <span className="inline-flex w-12 h-12 rounded-2xl items-center justify-center bg-[var(--color-violet-soft)] text-[var(--color-violet-deep)]">
                   <Icon size={20} strokeWidth={1.6} />
                 </span>
                 <h3 className="font-display text-2xl text-[var(--color-text)] mt-6 leading-snug">

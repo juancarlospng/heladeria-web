@@ -6,7 +6,7 @@ export default function ReviewsSection() {
   return (
     <section
       id="recensioni"
-      className="py-20 lg:py-28 bg-[var(--color-beige-soft)]"
+      className="py-20 lg:py-28 bg-[var(--color-grey-soft)]"
       data-testid="reviews-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -21,7 +21,7 @@ export default function ReviewsSection() {
           <h2 className="font-display text-4xl sm:text-5xl lg:text-[56px] leading-[1.05] text-[var(--color-text)] mt-4 tracking-tight">
             Voci dei nostri clienti
           </h2>
-          <div className="flex items-center justify-center gap-1 mt-5 text-[var(--color-gold)]">
+          <div className="flex items-center justify-center gap-1 mt-5 text-[var(--color-yellow-deep)]">
             {[...Array(5)].map((_, i) => (
               <Star key={i} size={18} fill="currentColor" strokeWidth={0} />
             ))}
@@ -44,7 +44,7 @@ export default function ReviewsSection() {
             >
               <Quote
                 size={36}
-                className="text-[var(--color-pistachio)]"
+                className="text-[var(--color-violet)]"
                 strokeWidth={1.2}
               />
               <blockquote className="mt-4 text-[var(--color-text)] font-display text-xl sm:text-[22px] leading-snug italic">
@@ -54,7 +54,7 @@ export default function ReviewsSection() {
                 <span className="text-sm font-medium text-[var(--color-text)]">
                   {r.author}
                 </span>
-                <span className="flex gap-0.5 text-[var(--color-gold)]">
+                <span className="flex gap-0.5 text-[var(--color-yellow-deep)]">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} size={12} fill="currentColor" strokeWidth={0} />
                   ))}

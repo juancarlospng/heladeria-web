@@ -55,7 +55,7 @@ export const FLAVORS = [
       "Preparato con fragole mature e dolci. Fresco, fruttato, perfetto per l'estate.",
     image:
       "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=1200&q=80",
-    accent: "#C63A37",
+    accent: "#F6E27F",
   },
   {
     id: "pistacchio",
@@ -65,7 +65,7 @@ export const FLAVORS = [
       "Intenso pistacchio siciliano DOP, dalla cremosità irresistibile.",
     image:
       "https://images.unsplash.com/photo-1633933358116-a27b902fad35?auto=format&fit=crop&w=900&q=80",
-    accent: "#8AA687",
+    accent: "#C8A2C8",
   },
   {
     id: "nocciola",
@@ -75,7 +75,7 @@ export const FLAVORS = [
       "Vellutato gelato alla nocciola Piemonte IGP, dolce e profondo.",
     image:
       "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&fit=crop&w=900&q=80",
-    accent: "#B4923A",
+    accent: "#F6E27F",
   },
   {
     id: "stracciatella",
@@ -85,7 +85,7 @@ export const FLAVORS = [
       "Un classico italiano: crema bianca con scaglie di cioccolato fondente.",
     image:
       "https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=1200&q=80",
-    accent: "#4A3B32",
+    accent: "#C8A2C8",
   },
   {
     id: "sorbetto",
@@ -95,7 +95,7 @@ export const FLAVORS = [
       "Sorbetti alla frutta fresca che cambiano con la stagione. Senza latte.",
     image:
       "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=1200&q=80",
-    accent: "#C63A37",
+    accent: "#F6E27F",
   },
 ];
 

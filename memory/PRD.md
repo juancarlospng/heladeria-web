@@ -47,6 +47,15 @@ Build an elegant, premium landing page for an artisanal gelateria "Gelateria La 
 - ✅ Backend pytest suite (`/app/backend/tests/test_contact_api.py`) — 100% pass
 - ✅ Frontend Playwright validation — 100% pass
 
+## Brand Guide alignment (2026-05, iteration 2)
+After receiving the official LA DOLCE VITA SA Mini Brand Guide, the palette was fully migrated:
+- White `#FFFFFF` dominant (60%)
+- Violet Pastel `#C8A2C8` for identity (30%) — logo, badges, eyebrow labels, icon backgrounds, CTAs
+- Yellow Pastel `#F6E27F` for accents (10%) — "Locarno" highlight, "Chiama Ora" button, since-2002 pill, star ratings
+- Black `#0A0A0A` for contrast — footer, text
+- Soft Grey `#F5F5F5` — trust/reviews backgrounds, form fields
+Minimalist principle applied: removed beige/cream/strawberry/pistachio, removed heavy decorative gradients, simplified the "since 2002" badge from large red circle to slim yellow pill, the product remains the protagonist.
+
 ## Backlog / next tasks
 - **P0**: User adds real `RESEND_API_KEY` to `/app/backend/.env` and verifies domain on Resend
 - **P1**: Protect `GET /api/contact` (admin-only) before exposing publicly

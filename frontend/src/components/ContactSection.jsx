@@ -143,7 +143,7 @@ export default function ContactSection() {
             </div>
 
             <div
-              className="rounded-3xl overflow-hidden border border-[var(--color-border)] aspect-[4/3] bg-[var(--color-beige-soft)]"
+              className="rounded-3xl overflow-hidden border border-[var(--color-border)] aspect-[4/3] bg-[var(--color-grey-soft)]"
               data-testid="contact-map-wrapper"
             >
               <iframe
@@ -210,7 +210,7 @@ export default function ContactSection() {
                   Tipo richiesta
                 </label>
                 <div
-                  className="grid grid-cols-2 gap-2 p-1.5 rounded-full bg-[var(--color-beige-soft)] border border-[var(--color-border)]"
+                  className="grid grid-cols-2 gap-2 p-1.5 rounded-full bg-[var(--color-grey-soft)] border border-[var(--color-border)]"
                   data-testid="contact-inquiry-toggle"
                 >
                   <button
@@ -255,7 +255,7 @@ export default function ContactSection() {
                 required
                 rows={5}
                 placeholder="Raccontaci come possiamo aiutarti..."
-                className="mt-2 w-full rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] px-5 py-4 text-[15px] text-[var(--color-text)] placeholder:text-[var(--color-text-soft)]/60 outline-none focus:border-[var(--color-text)] focus:ring-2 focus:ring-[var(--color-pistachio)] transition resize-none"
+                className="mt-2 w-full rounded-2xl border border-[var(--color-border)] bg-[var(--color-grey-soft)] px-5 py-4 text-[15px] text-[var(--color-text)] placeholder:text-[var(--color-text-soft)]/60 outline-none focus:border-[var(--color-text)] focus:ring-2 focus:ring-[var(--color-violet)] transition resize-none"
                 data-testid="contact-input-message"
               />
             </div>
@@ -292,7 +292,7 @@ export default function ContactSection() {
 function InfoRow({ icon: Icon, label, value, hint, href }) {
   const content = (
     <div className="flex items-start gap-4">
-      <span className="mt-1 inline-flex w-10 h-10 rounded-2xl items-center justify-center bg-[var(--color-pistachio)] text-[var(--color-text)] shrink-0">
+      <span className="mt-1 inline-flex w-10 h-10 rounded-2xl items-center justify-center bg-[var(--color-violet-soft)] text-[var(--color-violet-deep)] shrink-0">
         <Icon size={16} strokeWidth={1.8} />
       </span>
       <div>
@@ -331,7 +331,7 @@ function Field({ label, value, onChange, type = "text", required, placeholder, t
         onChange={onChange}
         required={required}
         placeholder={placeholder}
-        className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] px-5 py-3.5 text-[15px] text-[var(--color-text)] placeholder:text-[var(--color-text-soft)]/60 outline-none focus:border-[var(--color-text)] focus:ring-2 focus:ring-[var(--color-pistachio)] transition"
+        className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-grey-soft)] px-5 py-3.5 text-[15px] text-[var(--color-text)] placeholder:text-[var(--color-text-soft)]/60 outline-none focus:border-[var(--color-text)] focus:ring-2 focus:ring-[var(--color-violet)] transition"
         data-testid={testId}
       />
     </div>

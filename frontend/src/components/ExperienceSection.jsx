@@ -5,7 +5,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="esperienza"
-      className="py-20 lg:py-28 bg-[var(--color-bg)]"
+      className="py-20 lg:py-28 bg-white"
       data-testid="experience-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center">
@@ -71,8 +71,8 @@ export default function ExperienceSection() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
-            <div className="col-span-8 row-span-2 rounded-3xl border border-[var(--color-border)] bg-[var(--color-pistachio)] p-6 flex items-center">
-              <p className="font-accent text-2xl sm:text-3xl text-[var(--color-text)] leading-snug">
+            <div className="col-span-8 row-span-2 rounded-3xl border border-[var(--color-border)] bg-[var(--color-violet-soft)] p-6 flex items-center">
+              <p className="font-accent text-2xl sm:text-3xl text-[var(--color-violet-deep)] leading-snug">
                 "Un piccolo cono, un grande momento di felicità."
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function ExperienceSection() {
 function Stat({ number, label }) {
   return (
     <div>
-      <p className="font-display text-3xl sm:text-4xl text-[var(--color-strawberry)] leading-none">
+      <p className="font-display text-3xl sm:text-4xl text-[var(--color-violet-deep)] leading-none">
         {number}
       </p>
       <p className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--color-text-soft)]">

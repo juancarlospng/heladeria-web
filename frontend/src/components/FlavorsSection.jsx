@@ -5,11 +5,7 @@ export default function FlavorsSection() {
   return (
     <section
       id="gusti"
-      className="py-20 lg:py-28 relative"
-      style={{
-        background:
-          "linear-gradient(180deg, var(--color-bg) 0%, #F5EDDA 100%)",
-      }}
+      className="py-20 lg:py-28 relative bg-white"
       data-testid="flavors-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -63,11 +59,11 @@ export default function FlavorsSection() {
                   alt={f.name}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#4A3B32]/85 via-[#4A3B32]/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
                 <div className="relative z-10 h-full flex flex-col justify-end p-6 lg:p-7 text-white">
                   <span
                     className="inline-block w-fit font-accent text-2xl mb-2"
-                    style={{ color: f.accent === "#4A3B32" ? "#E8DCC4" : f.accent }}
+                    style={{ color: f.accent }}
                   >
                     {f.italian}
                   </span>
@@ -88,7 +84,7 @@ export default function FlavorsSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="text-center mt-12 font-accent text-2xl text-[var(--color-strawberry)]"
+          className="text-center mt-12 font-accent text-2xl text-[var(--color-violet-deep)]"
         >
           ...e tanti altri gusti stagionali da scoprire in vetrina
         </motion.p>

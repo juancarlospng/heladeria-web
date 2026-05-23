@@ -83,7 +83,7 @@ export default function ProductsSection() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <span className="absolute top-4 left-4 inline-flex items-center gap-2 bg-white/95 backdrop-blur px-3 py-1.5 rounded-full text-xs font-medium text-[var(--color-text)] border border-[var(--color-border)]">
-                    <Icon size={14} className="text-[var(--color-strawberry)]" />
+                    <Icon size={14} className="text-[var(--color-violet-deep)]" />
                     {p.italian}
                   </span>
                 </div>
@@ -96,7 +96,7 @@ export default function ProductsSection() {
                   </p>
                   <a
                     href={p.ctaHref}
-                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-strawberry)] hover:gap-3 transition-all"
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-violet-deep)] hover:gap-3 transition-all"
                     data-testid={`product-cta-${i}`}
                   >
                     {p.cta}

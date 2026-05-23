@@ -29,7 +29,7 @@ export default function NavBar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[var(--color-border)]"
+          ? "bg-white/95 backdrop-blur-md border-b border-[var(--color-border)]"
           : "bg-transparent"
       }`}
       data-testid="site-navbar"
@@ -41,7 +41,7 @@ export default function NavBar() {
           data-testid="navbar-logo"
         >
           <span
-            className="w-10 h-10 rounded-full flex items-center justify-center bg-[var(--color-pistachio)] text-[var(--color-text)] font-display text-xl"
+            className="w-10 h-10 rounded-full flex items-center justify-center bg-[var(--color-violet)] text-[var(--color-text)] font-display text-xl"
             aria-hidden
           >
             ld
@@ -61,7 +61,7 @@ export default function NavBar() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm text-[var(--color-text)] hover:text-[var(--color-strawberry)] transition-colors relative"
+              className="text-sm text-[var(--color-text)] hover:text-[var(--color-violet-deep)] transition-colors relative"
               data-testid={`nav-link-${item.href.replace("#", "")}`}
             >
               {item.label}
@@ -96,7 +96,7 @@ export default function NavBar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-[#FDFBF7]/95 backdrop-blur-md border-t border-[var(--color-border)] overflow-hidden"
+            className="lg:hidden bg-white/95 backdrop-blur-md border-t border-[var(--color-border)] overflow-hidden"
             data-testid="navbar-mobile-menu"
           >
             <div className="px-6 py-6 flex flex-col gap-4">

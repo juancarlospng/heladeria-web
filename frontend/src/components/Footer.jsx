@@ -4,14 +4,14 @@ import { BRAND } from "@/data/content";
 export default function Footer() {
   return (
     <footer
-      className="bg-[var(--color-text)] text-[#F5EDDA] pt-16 pb-8"
+      className="bg-[var(--color-text)] text-white pt-16 pb-8"
       data-testid="site-footer"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
-              <span className="w-12 h-12 rounded-full flex items-center justify-center bg-[var(--color-pistachio)] text-[var(--color-text)] font-display text-2xl">
+              <span className="w-12 h-12 rounded-full flex items-center justify-center bg-[var(--color-violet)] text-[var(--color-text)] font-display text-2xl">
                 ld
               </span>
               <div>
@@ -35,7 +35,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
-                className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--color-pistachio)] hover:text-[var(--color-text)] hover:border-transparent transition"
+                className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--color-violet)] hover:text-[var(--color-text)] hover:border-transparent transition"
                 data-testid="footer-instagram"
               >
                 <Instagram size={18} />
@@ -45,7 +45,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"
-                className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--color-pistachio)] hover:text-[var(--color-text)] hover:border-transparent transition"
+                className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--color-violet)] hover:text-[var(--color-text)] hover:border-transparent transition"
                 data-testid="footer-facebook"
               >
                 <Facebook size={18} />
@@ -55,7 +55,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="TripAdvisor"
-                className="px-4 h-11 rounded-full border border-white/20 flex items-center text-sm font-medium hover:bg-[var(--color-pistachio)] hover:text-[var(--color-text)] hover:border-transparent transition"
+                className="px-4 h-11 rounded-full border border-white/20 flex items-center text-sm font-medium hover:bg-[var(--color-violet)] hover:text-[var(--color-text)] hover:border-transparent transition"
                 data-testid="footer-tripadvisor"
               >
                 TripAdvisor
@@ -69,27 +69,27 @@ export default function Footer() {
             </p>
             <ul className="space-y-3 text-[15px]">
               <li>
-                <a href="#valori" className="opacity-90 hover:opacity-100 hover:text-[var(--color-pistachio)] transition">
+                <a href="#valori" className="opacity-90 hover:opacity-100 hover:text-[var(--color-yellow)] transition">
                   La nostra promessa
                 </a>
               </li>
               <li>
-                <a href="#prodotti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-pistachio)] transition">
+                <a href="#prodotti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-yellow)] transition">
                   Prodotti
                 </a>
               </li>
               <li>
-                <a href="#gusti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-pistachio)] transition">
+                <a href="#gusti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-yellow)] transition">
                   Gusti d'autore
                 </a>
               </li>
               <li>
-                <a href="#esperienza" className="opacity-90 hover:opacity-100 hover:text-[var(--color-pistachio)] transition">
+                <a href="#esperienza" className="opacity-90 hover:opacity-100 hover:text-[var(--color-yellow)] transition">
                   Esperienza
                 </a>
               </li>
               <li>
-                <a href="#contatti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-pistachio)] transition">
+                <a href="#contatti" className="opacity-90 hover:opacity-100 hover:text-[var(--color-yellow)] transition">
                   Contatti
                 </a>
               </li>
@@ -107,7 +107,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={16} className="mt-1 opacity-70 shrink-0" />
-                <a href={BRAND.phoneHref} className="opacity-90 hover:text-[var(--color-pistachio)] transition">
+                <a href={BRAND.phoneHref} className="opacity-90 hover:text-[var(--color-yellow)] transition">
                   {BRAND.phone}
                 </a>
               </li>
@@ -125,10 +125,10 @@ export default function Footer() {
             italiano a Locarno
           </p>
           <div className="flex items-center gap-5">
-            <a href="#" className="hover:text-[var(--color-pistachio)] transition" data-testid="footer-legal">
+            <a href="#" className="hover:text-[var(--color-yellow)] transition" data-testid="footer-legal">
               Note Legali
             </a>
-            <a href="#" className="hover:text-[var(--color-pistachio)] transition" data-testid="footer-privacy">
+            <a href="#" className="hover:text-[var(--color-yellow)] transition" data-testid="footer-privacy">
               Privacy Policy
             </a>
           </div>
