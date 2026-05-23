@@ -54,6 +54,12 @@ export default function TrustSection() {
         <div className="mt-14 grid md:grid-cols-3 gap-6 lg:gap-8">
           {VALUES.map((v, i) => {
             const Icon = v.icon;
+            const cardBg = ["bg-white", "bg-[var(--color-violet-soft)]", "bg-white"][i];
+            const iconBg = [
+              "bg-[var(--color-violet-soft)] text-[var(--color-violet-deep)]",
+              "bg-[var(--color-yellow)] text-[var(--color-text)]",
+              "bg-[var(--color-violet-soft)] text-[var(--color-violet-deep)]",
+            ][i];
             return (
               <motion.article
                 key={v.title}
@@ -61,10 +67,10 @@ export default function TrustSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.7, delay: i * 0.12 }}
-                className="bg-white rounded-3xl p-8 border border-[var(--color-border)]"
+                className={`${cardBg} rounded-3xl p-8 border border-[var(--color-border)]`}
                 data-testid={`trust-card-${i}`}
               >
-                <span className="inline-flex w-12 h-12 rounded-2xl items-center justify-center bg-[var(--color-violet-soft)] text-[var(--color-violet-deep)]">
+                <span className={`inline-flex w-12 h-12 rounded-2xl items-center justify-center ${iconBg}`}>
                   <Icon size={20} strokeWidth={1.6} />
                 </span>
                 <h3 className="font-display text-2xl text-[var(--color-text)] mt-6 leading-snug">

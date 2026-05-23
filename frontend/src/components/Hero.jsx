@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Soft, minimal background tint — 30% violet whisper */}
       <div
         aria-hidden
-        className="absolute -top-32 -right-24 w-[420px] h-[420px] rounded-full opacity-30"
+        className="absolute -top-32 -right-24 w-[420px] h-[420px] rounded-full opacity-60"
         style={{
           background:
             "radial-gradient(circle at 30% 30%, var(--color-violet) 0%, transparent 70%)",
@@ -20,7 +20,7 @@ export default function Hero() {
       />
       <div
         aria-hidden
-        className="absolute -bottom-32 -left-24 w-[360px] h-[360px] rounded-full opacity-20"
+        className="absolute -bottom-32 -left-24 w-[360px] h-[360px] rounded-full opacity-50"
         style={{
           background:
             "radial-gradient(circle at 70% 30%, var(--color-yellow) 0%, transparent 70%)",
@@ -50,15 +50,7 @@ export default function Hero() {
               Vero gelato italiano
               <br />
               <span className="italic font-light">nel cuore di</span>{" "}
-              <span className="relative inline-block">
-                Locarno
-                <span
-                  className="absolute left-0 right-0 bottom-1.5 h-2 -z-0"
-                  style={{ background: "var(--color-yellow)" }}
-                  aria-hidden
-                />
-                <span className="relative">&nbsp;</span>
-              </span>
+              <span className="text-[var(--color-violet-deep)]">Locarno</span>
             </h1>
 
             <p

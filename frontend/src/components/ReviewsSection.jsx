@@ -42,6 +42,15 @@ export default function ReviewsSection() {
               className="relative bg-white rounded-3xl p-8 border border-[var(--color-border)]"
               data-testid={`review-card-${i}`}
             >
+              <span
+                className="absolute -top-3 left-8 inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-[0.2em] font-semibold"
+                style={{
+                  background: i === 1 ? "var(--color-yellow)" : "var(--color-violet)",
+                  color: "var(--color-text)",
+                }}
+              >
+                Recensione verificata
+              </span>
               <Quote
                 size={36}
                 className="text-[var(--color-violet)]"

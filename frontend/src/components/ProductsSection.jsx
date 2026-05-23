@@ -39,7 +39,7 @@ export default function ProductsSection() {
   return (
     <section
       id="prodotti"
-      className="py-20 lg:py-28 bg-[var(--color-bg)]"
+      className="py-20 lg:py-28 bg-[var(--color-grey-soft)]"
       data-testid="products-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -66,6 +66,7 @@ export default function ProductsSection() {
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           {PRODUCTS.map((p, i) => {
             const Icon = p.icon;
+            const accentBg = ["bg-[var(--color-violet-soft)]", "bg-[var(--color-yellow)]/30", "bg-[var(--color-violet-soft)]"][i];
             return (
               <motion.article
                 key={p.title}
@@ -76,7 +77,7 @@ export default function ProductsSection() {
                 className="group bg-white rounded-3xl overflow-hidden border border-[var(--color-border)] flex flex-col"
                 data-testid={`product-card-${i}`}
               >
-                <div className="relative h-56 overflow-hidden">
+                <div className={`relative h-56 overflow-hidden ${accentBg}`}>
                   <img
                     src={p.image}
                     alt={p.title}
