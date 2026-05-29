@@ -123,13 +123,7 @@ export default function ContactSection() {
                 >
                   <Navigation size={16} /> Indicazioni
                 </a>
-                <a
-                  href={BRAND.phoneHref}
-                  className="btn-strawberry"
-                  data-testid="contact-call-btn"
-                >
-                  <Phone size={16} /> Chiama Ora
-                </a>
+                
                 <a
                   href={BRAND.instagram}
                   target="_blank"
