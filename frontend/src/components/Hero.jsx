@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative pt-28 lg:pt-32 pb-16 lg:pb-24 overflow-hidden bg-white"
+      className="relative pt-28 lg:pt-32 pb-16 lg:pb-24 overflow-hidden bg-[#fff8d6]"
       data-testid="hero-section"
     >
       {/* Soft, minimal background tint — 30% violet whisper */}

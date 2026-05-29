@@ -5,7 +5,7 @@ export default function FlavorsSection() {
   return (
     <section
       id="gusti"
-      className="py-20 lg:py-28 relative bg-white"
+      className="py-20 lg:py-28 relative bg-[#fff8d6]"
       data-testid="flavors-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">

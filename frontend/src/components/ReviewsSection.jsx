@@ -6,7 +6,7 @@ export default function ReviewsSection() {
   return (
     <section
       id="recensioni"
-      className="py-20 lg:py-28 bg-[var(--color-grey-soft)]"
+      className="py-20 lg:py-28 bg-[#fff8d6]"
       data-testid="reviews-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">

@@ -4,7 +4,7 @@ import { BRAND } from "@/data/content";
 export default function Footer() {
   return (
     <footer
-      className="bg-[var(--color-text)] text-white pt-16 pb-8"
+      className="bg-[#9b82f5] text-white pt-16 pb-8"
       data-testid="site-footer"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">

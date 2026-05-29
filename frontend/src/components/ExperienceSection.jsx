@@ -5,7 +5,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="esperienza"
-      className="py-20 lg:py-28 bg-white"
+      className="py-20 lg:py-28 bg-[#fff8d6]"
       data-testid="experience-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center">

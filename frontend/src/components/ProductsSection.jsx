@@ -39,7 +39,7 @@ export default function ProductsSection() {
   return (
     <section
       id="prodotti"
-      className="py-20 lg:py-28 bg-[var(--color-grey-soft)]"
+      className="py-20 lg:py-28 bg-[#fff8d6]"
       data-testid="products-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">

@@ -26,7 +26,7 @@ export default function TrustSection() {
   return (
     <section
       id="valori"
-      className="py-20 lg:py-28 bg-[var(--color-grey-soft)] relative"
+      className="py-20 lg:py-28 bg-[#fff8d6] relative"
       data-testid="trust-section"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
